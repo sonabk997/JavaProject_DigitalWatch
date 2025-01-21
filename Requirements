@@ -1,0 +1,4 @@
+The major requirement for this program is Swing.
+Because it is used to create the Graphical User Interface (GUI) of the program.
+The Swing framework of Java has several components that give developers the freedom and flexibility to make eye-catching interfaces for windows-based applications.
+The best part about using Swing to create components like tables, scroll panes, buttons, and the like is that the framework is platform-independent.
