@@ -1,4 +1,4 @@
-// Java program to create a simple calculator
+// Java program to create a digital Watch 
 import javax.swing.*;
 import java.awt.*;
 import java.text.*;
