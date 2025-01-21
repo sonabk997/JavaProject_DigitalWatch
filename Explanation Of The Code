@@ -1,0 +1,8 @@
+# The GUI of this digital watch program is the least interactive as it will just have one button that will display the current time. 
+# Therefore, creating the button and setting it inside the JFrame is all that is needed. To find the current time, the following steps are performed:
+
+1. To get the current time, the Calendar class of Java is used. It is an abstract class containing methods that will return the time, date, year, and month.
+2. Once an object of the Calendar class is created, the current time is retrieved using the getDate() method. This clock is designed to be in the 12-hour format.
+3. Finally, what is left is formatting the time int hrs:mm:ss. For this, an object of the SimpleDataFormat class is instantiated. The date obtained in the step above is then formatted according to the layout of hrs:mm:ss.
+4. The printTime() function simply sets the text of the button to the current time every time it is called. It is called every second, besides which the thread sleeps.
+5. The whole body of the code is placed in an Exception Handler in the unforeseen event of a failure.
